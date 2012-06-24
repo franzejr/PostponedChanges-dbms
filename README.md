@@ -36,7 +36,6 @@ TRANSACTION PAGE:
 
 
 REDO-LIST:
-------------------------
 LSN: 0 | Transaction Timestamp: 0 | Transaction ID: T1 | Operation Type: w | Operation Target Object: x | Before Object Image: 10 | After Object Image: 20
 LSN: 1 | Transaction Timestamp: 1 | Transaction ID: T2 | Operation Type: w | Operation Target Object: y | Before Object Image: 30 | After Object Image: 40
 LSN: 2 | Transaction Timestamp: 2 | Transaction ID: T2 | Operation Type: w | Operation Target Object: x | Before Object Image: 70 | After Object Image: 80
@@ -44,7 +43,6 @@ LSN: 3 | Transaction Timestamp: 3 | Transaction ID: T1 | Operation Type: w | Ope
 LSN: 4 | Transaction Timestamp: 4 | Transaction ID: T3 | Operation Type: w | Operation Target Object: x | Before Object Image: 100 | After Object Image: 200
 LSN: 5 | Transaction Timestamp: 5 | Transaction ID: T1 | Operation Type: w | Operation Target Object: o | Before Object Image: 110 | After Object Image: 220
 LSN: 6 | Transaction Timestamp: 6 | Transaction ID: T3 | Operation Type: w | Operation Target Object: z | Before Object Image: 4 | After Object Image: 20
-------------------------
 
 Final States:
 
