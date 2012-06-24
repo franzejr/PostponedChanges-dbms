@@ -30,12 +30,16 @@ Log:
 #Output
 
 DIRTY PAGE: 
+
 {o=5, z=3, y=1, x=0}
+
 TRANSACTION PAGE: 
+
 {T1=7, T3=8, T2=8}
 
 
 REDO-LIST:
+
 LSN: 0 | Transaction Timestamp: 0 | Transaction ID: T1 | Operation Type: w | Operation Target Object: x | Before Object Image: 10 | After Object Image: 20
 LSN: 1 | Transaction Timestamp: 1 | Transaction ID: T2 | Operation Type: w | Operation Target Object: y | Before Object Image: 30 | After Object Image: 40
 LSN: 2 | Transaction Timestamp: 2 | Transaction ID: T2 | Operation Type: w | Operation Target Object: x | Before Object Image: 70 | After Object Image: 80
