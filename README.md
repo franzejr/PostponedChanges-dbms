@@ -2,14 +2,14 @@
 
 The algorithm is a implementation from the ARIES protocol. We can recover only committed transactions.
 
-##Analyze
+###Analyze
 
 Check all the log looking for transactions that has already been committed.\n2
 
-##Redo
+###Redo
 This is the main point. The algorithm output must be this redo list.
 
-##Undo
+###Undo
 
 We dont't have a undo list, cause We don't have a undo List.
 
